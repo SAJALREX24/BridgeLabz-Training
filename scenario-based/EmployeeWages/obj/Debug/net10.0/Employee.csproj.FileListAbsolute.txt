@@ -1,0 +1,28 @@
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\bin\Debug\net10.0\Employee.exe
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\bin\Debug\net10.0\Employee.deps.json
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\bin\Debug\net10.0\Employee.runtimeconfig.json
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\bin\Debug\net10.0\Employee.dll
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\bin\Debug\net10.0\Employee.pdb
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\obj\Debug\net10.0\Employee.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\obj\Debug\net10.0\Employee.AssemblyInfoInputs.cache
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\obj\Debug\net10.0\Employee.AssemblyInfo.cs
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\obj\Debug\net10.0\Employee.csproj.CoreCompileInputs.cache
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\obj\Debug\net10.0\Employee.dll
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\obj\Debug\net10.0\refint\Employee.dll
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\obj\Debug\net10.0\Employee.pdb
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\obj\Debug\net10.0\Employee.genruntimeconfig.cache
+D:\College\Capgemini Traning\Notes of Class\In lab Experience\MODULE 2\Day 6\VS Code\Employee\obj\Debug\net10.0\ref\Employee.dll
+C:\Users\Dell\Desktop\EmployeeWages\bin\Debug\net10.0\Employee.exe
+C:\Users\Dell\Desktop\EmployeeWages\bin\Debug\net10.0\Employee.deps.json
+C:\Users\Dell\Desktop\EmployeeWages\bin\Debug\net10.0\Employee.runtimeconfig.json
+C:\Users\Dell\Desktop\EmployeeWages\bin\Debug\net10.0\Employee.dll
+C:\Users\Dell\Desktop\EmployeeWages\bin\Debug\net10.0\Employee.pdb
+C:\Users\Dell\Desktop\EmployeeWages\obj\Debug\net10.0\Employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\EmployeeWages\obj\Debug\net10.0\Employee.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\EmployeeWages\obj\Debug\net10.0\Employee.AssemblyInfo.cs
+C:\Users\Dell\Desktop\EmployeeWages\obj\Debug\net10.0\Employee.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\EmployeeWages\obj\Debug\net10.0\Employee.dll
+C:\Users\Dell\Desktop\EmployeeWages\obj\Debug\net10.0\refint\Employee.dll
+C:\Users\Dell\Desktop\EmployeeWages\obj\Debug\net10.0\Employee.pdb
+C:\Users\Dell\Desktop\EmployeeWages\obj\Debug\net10.0\Employee.genruntimeconfig.cache
+C:\Users\Dell\Desktop\EmployeeWages\obj\Debug\net10.0\ref\Employee.dll
