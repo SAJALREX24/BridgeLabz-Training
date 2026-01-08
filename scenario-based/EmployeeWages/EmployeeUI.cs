@@ -6,10 +6,9 @@ namespace UI
     {
         public static void StartApplication()
         {
-            Console.WriteLine("=========================================");
-            Console.WriteLine("   Employee Wage Computation System   ");
-            Console.WriteLine("=========================================\n");
-
+           
+            Console.WriteLine("Employee Wage  System");
+           
             EmployeeMenu.ShowMenu();
         }
     }

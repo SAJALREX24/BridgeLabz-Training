@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Desktop\\EmployeeWages\\Employee.csproj": {}
+    "C:\\Capgemini\\BridgeLabz-Training\\oops-csharp-practice\\oops-csharp-practice\\scenario-based\\EmployeeWages\\Employee.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Desktop\\EmployeeWages\\Employee.csproj": {
+    "C:\\Capgemini\\BridgeLabz-Training\\oops-csharp-practice\\oops-csharp-practice\\scenario-based\\EmployeeWages\\Employee.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\EmployeeWages\\Employee.csproj",
+        "projectUniqueName": "C:\\Capgemini\\BridgeLabz-Training\\oops-csharp-practice\\oops-csharp-practice\\scenario-based\\EmployeeWages\\Employee.csproj",
         "projectName": "Employee",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\EmployeeWages\\Employee.csproj",
+        "projectPath": "C:\\Capgemini\\BridgeLabz-Training\\oops-csharp-practice\\oops-csharp-practice\\scenario-based\\EmployeeWages\\Employee.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\EmployeeWages\\obj\\",
+        "outputPath": "C:\\Capgemini\\BridgeLabz-Training\\oops-csharp-practice\\oops-csharp-practice\\scenario-based\\EmployeeWages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

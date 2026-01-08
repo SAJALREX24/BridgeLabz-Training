@@ -1,7 +1,7 @@
 using System;
 using Models;
 using Utilities;
-
+ 
 namespace UI
 {
     public class EmployeeMenu
@@ -31,27 +31,30 @@ namespace UI
                     );
                     break;
 
-                case 2:
-                    Console.Write("Enter Hourly Rate: ");
-                    int fullTimeRate = Convert.ToInt32(Console.ReadLine());
+               case 2:
 
-                    Console.Write("Enter Working Hours: ");
-                    int fullTimeHours = Convert.ToInt32(Console.ReadLine());
 
-                    Employee fullTimeEmployee = new FullTimeEmployee(fullTimeRate, fullTimeHours);
-                    Console.WriteLine("Full Time Daily Wage: " + fullTimeEmployee.CalculateWage());
-                    break;
+                   Console.Write("Enter Hourly Rate: ");
+                   int fullTimeRate = Convert.ToInt32(Console.ReadLine());
 
-                case 3:
-                    Console.Write("Enter Hourly Rate: ");
-                    int partTimeRate = Convert.ToInt32(Console.ReadLine());
+                   Console.Write("Enter Working Hours: ");
+                   int fullTimeHours = Convert.ToInt32(Console.ReadLine());
 
-                    Console.Write("Enter Working Hours: ");
-                    int partTimeHours = Convert.ToInt32(Console.ReadLine());
+                   int fullTimeWage = employeeUtility.CalculateFullTimeWage(fullTimeRate, fullTimeHours);
+                   Console.WriteLine("Full Time Daily Wage: " + fullTimeWage);
+                   break;
 
-                    Employee partTimeEmployee = new PartTimeEmployee(partTimeRate, partTimeHours);
-                    Console.WriteLine("Part Time Daily Wage: " + partTimeEmployee.CalculateWage());
-                    break;
+              case 3:
+                 Console.Write("Enter Hourly Rate: ");
+                 int partTimeRate = Convert.ToInt32(Console.ReadLine());
+
+                 Console.Write("Enter Working Hours: ");
+                 int partTimeHours = Convert.ToInt32(Console.ReadLine());
+
+                 int partTimeWage = employeeUtility.CalculatePartTimeWage(partTimeRate, partTimeHours);
+                 Console.WriteLine("Part Time Daily Wage: " + partTimeWage);
+                 break;
+
 
                 case 4:
                     Console.Write("Enter Daily Pay: ");
@@ -91,7 +94,7 @@ namespace UI
                     break;
             }
 
-            Console.WriteLine("\n-----------------------------------------\n");
+           
             ShowMenu();
         }
     }

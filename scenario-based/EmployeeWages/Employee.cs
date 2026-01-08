@@ -8,7 +8,7 @@ namespace Models
         protected Employee(int hourlyRate, int hoursWorked)
         {
             HourlyRate = hourlyRate;
-            HoursWorked = hoursWorked;
+            HoursWorked = hoursWorked; 
         }
 
         public abstract int CalculateWage();

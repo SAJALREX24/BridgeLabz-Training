@@ -15,6 +15,18 @@ namespace Utilities
             return dailyPay * totalWorkingDays;
         }
 
+     
+        public int CalculateFullTimeWage(int hourlyRate, int hoursWorked)
+        {
+            return hourlyRate * hoursWorked;
+        }
+
+      
+        public int CalculatePartTimeWage(int hourlyRate, int hoursWorked)
+        {
+            return hourlyRate * hoursWorked;
+        }
+
         public int CalculateWageTillCondition(int hourlyRate, int maxAllowedHours, int maxAllowedDays)
         {
             int accumulatedHours = 0;
