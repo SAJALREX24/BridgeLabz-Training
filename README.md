@@ -1,11 +1,11 @@
 📅 Date & Day
 
-22 December 2025 : Monday
+* 22 December 2025 : Monday
 
 
 🎯 Objective & Tasks of the Day
 
-* The objective of the day was to understand and practice C# Control Flow mechanisms. The task assigned was to study the core control flow concepts and apply them by solving an assignment consisting of multiple questions based on these topics.
+* The objective of the day was to understand and practice C# Control Flow mechanisms. The task assigned was to study the core control       flow concepts and apply them by solving an assignment consisting of multiple questions based on these topics.
   
 
 ✅ Work Completed
@@ -66,11 +66,11 @@
 
 📅 Date & Day
 
-23 December 2025 : Tuesday
+* 23 December 2025 : Tuesday
 
 🎯 Objective & Tasks of the Day
 
-The objective of the day was to understand and practice C# Array concepts. The task assigned was to learn different types of arrays and perform lab practices involving array creation, access, modification, and traversal, including multi-dimensional arrays.
+* The objective of the day was to understand and practice C# Array concepts. The task assigned was to learn different types of arrays and   perform lab practices involving array creation, access, modification, and traversal, including multi-dimensional arrays.
 
 ✅ Work Completed
 
@@ -125,71 +125,59 @@ The objective of the day was to understand and practice C# Array concepts. The t
 
 📅 Date & Day
 
-24 December 2025 : Wednesday
+* 24 December 2025 : Wednesday
 
 🎯 Objective & Tasks of the Day
 
-The objective of the day was to understand and practice methods in C# and .NET. The task assigned was to learn how to define, reuse, and enhance methods, including recursive and static methods, and to explore commonly used methods from the .NET Standard Library.
+* The objective of the day was to understand and practice methods in C# and .NET. The task assigned was to learn how to define, reuse,      and enhance methods, including recursive and static methods, and to explore commonly used methods from the .NET Standard Library.
+
 
 ✅ Work Completed
 
-Studied the fundamentals of user-defined methods
-
-Practiced calling methods multiple times to promote code reusability
-
-Implemented dynamic methods using parameters and return values
-
-Worked on recursive method examples
-
-Explored static methods and standard library utilities
-
-Solved lab practice problems related to methods
+* Studied the fundamentals of user-defined methods
+* Practiced calling methods multiple times to promote code reusability
+* Implemented dynamic methods using parameters and return values
+* Worked on recursive method examples
+* Explored static methods and standard library utilities
+* Solved lab practice problems related to methods
+  
 
 📚 Concepts Learned
 
-User-defined methods
-
-Using methods multiple times (reusability)
-
-Making methods dynamic with parameters
-
-Recursive methods
-
-Static methods in C#
-
-.NET Standard Library methods
-
-System.Math class in C#
+* User-defined methods
+* Using methods multiple times (reusability)
+* Making methods dynamic with parameters
+* Recursive methods
+* Static methods in C#
+* .NET Standard Library methods
+* System.Math class in C#
+  
 
 🛠 Tools / Technologies Used
 
-C# Programming Language
-
-.NET SDK
-
-Visual Studio / Visual Studio Code
+* C# Programming Language
+* .NET SDK
+* Visual Studio / Visual Studio Code
+  
 
 ⚠️ Challenges Faced
 
-Understanding recursion and defining correct base conditions
-
-Choosing between static and non-static methods for different scenarios
+* Understanding recursion and defining correct base conditions
+* Choosing between static and non-static methods for different scenarios
+  
 
 🧩 Solution / Approach
 
-Broke down problems to identify reusable logic
-
-Traced recursive calls step-by-step to understand execution flow
-
-Used documentation and examples for standard library methods
+* Broke down problems to identify reusable logic
+* Traced recursive calls step-by-step to understand execution flow
+* Used documentation and examples for standard library methods
+  
 
 🎯 Key Takeaways
 
-Methods help organize code and improve reusability
-
-Recursion requires a clear base case to avoid infinite calls
-
-The .NET Standard Library provides powerful built-in methods that simplify development
+* Methods help organize code and improve reusability
+* Recursion requires a clear base case to avoid infinite calls
+* The .NET Standard Library provides powerful built-in methods that simplify development
 
 
 
