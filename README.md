@@ -181,3 +181,94 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+📅 Date & Day
+
+* 26 December 2025 : Thursday
+
+🎯 Objective & Tasks of the Day
+
+*The objective of the day was to understand and practice string handling and exception management in C#, along with applying previously    learned fundamentals to solve a scenario-based console application problem. The task assigned was to complete string-related lab          practices and implement a multi-player Snake & Ladder game using .NET fundamentals.
+
+✅ Work Completed
+
+* Studied and practiced core string concepts in C#
+* Worked with string input, escape sequences, and string arrays
+* Explored built-in string class methods and ASCII character codes
+* Learned exception handling concepts and exception hierarchy
+* Analyzed and designed a console-based Snake & Ladder game
+* Implemented modular methods for game logic as part of the assignment
+
+  
+
+📚 Concepts Learned
+
+* C# Strings
+* Creating strings
+* Use of \\ escape sequence
+* Taking string input from console
+* String arrays
+* Passing strings as method parameters
+* String class built-in methods
+* ASCII character codes
+* C# Exceptions
+* Exception hierarchy
+* Exception types
+* System.Exception / unchecked exceptions
+* Checked exceptions
+
+  
+
+🛠 Tools / Technologies Used
+
+* C# Programming Language
+* .NET 6+
+* Visual Studio / Visual Studio Code
+* Git & GitHub
+
+⚠️ Challenges Faced
+
+* Handling string manipulation efficiently
+* Understanding exception flow and hierarchy
+* Designing game logic for multiple players
+* Ensuring proper turn handling and win conditions in the game
+
+  
+
+🧩 Solution / Approach
+
+* Used built-in string methods to simplify string operations
+* Referred to exception hierarchy to apply correct exception handling
+* Broke the Snake & Ladder game into modular methods such as:
+* RollDice()
+* MovePlayer()
+* ApplySnakeOrLadder()
+* CheckWin()
+* Applied conditions, loops, and collections to manage game flow
+* Followed clean coding practices and version control
+
+  
+
+🎯 Key Takeaways
+
+* Strings are powerful and provide many built-in methods for efficient handling
+* Proper exception handling improves program reliability
+* Breaking a large problem into smaller methods makes code manageable
+* Applying fundamentals to real-world scenarios strengthens programming skills
+
+
