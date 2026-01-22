@@ -304,3 +304,214 @@
 * Quick Sort is efficient for large datasets with performance constraints
 * Bubble Sort, though inefficient for large data, works well for small, frequently updated lists
 * Choosing the right algorithm is as important as implementing it correctly
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+📅 Date & Day
+* 19 January 2026 – Monday
+
+
+
+🎯 Objective & Tasks of the Day
+* The objective of the day was to understand and implement real-world scenario-based applications using Data Structures, OOPS, and Core C#. The focus was on tracking sequentialprocesses * and managing dynamic data efficiently.
+
+
+
+✅ Work Completed
+
+* Analyzed ParcelTracker – Delivery Chain Management problem statement
+* Designed a Singly Linked List to represent parcel delivery stages
+* Implemented forward tracking through delivery stages
+* Added support for custom intermediate checkpoints
+* Handled null pointers to account for lost or missing parcels
+* Analyzed ExamProctor – Online Exam Review System problem statement
+* Implemented Stack to track question navigation
+* Used HashMap to store question IDs and answers
+* Created functions to automatically calculate exam scores after submission
+
+
+
+
+📚 Concepts Learned
+
+* Singly Linked List for sequential process tracking
+* Stack (LIFO) for navigation history
+* HashMap / Dictionary for mapping question IDs to answers
+* Functions for modular and reusable scoring logic
+* Handling null pointers and dynamic data updates
+
+
+
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* Data Structures & Algorithms
+* Console-based program design
+
+
+
+
+⚠️ Challenges Faced
+
+* Managing null pointers in linked lists
+* Synchronizing stack operations with answer storage
+* Designing modular scoring functions for reusability
+
+
+
+
+🧩 Solution / Approach
+
+* Used Singly Linked List to represent parcel stages dynamically
+* Maintained Stack to track question navigation history
+* Used HashMap to store and retrieve student answers efficiently
+* Created reusable functions to calculate exam scores automatically
+
+
+
+🎯 Key Takeaways
+
+* Singly Linked Lists are effective for modeling sequential workflows
+* Stacks are useful for navigation or undo/redo systems
+* Combining multiple data structures allows efficient real-world problem solving
+* Modular functions improve code readability and maintainability
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+📅 Date & Day
+20 January 2026 – Tuesday
+
+
+🎯 Objective & Tasks of the Day
+* The objective of the day was to implement advanced algorithms for real-world problems and understand their efficiency. The focus was on Radix Sort for large numeric datasets and *
+* Backtracking for combinatorial search problems.
+
+✅ Work Completed
+
+* Analyzed Sorting Aadhar Numbers using Radix Sort problem statement
+* Implemented Radix Sort to sort 12-digit Aadhar numbers in ascending order
+* Applied Binary Search to efficiently locate specific numbers after sorting
+* Ensured stability to maintain the order of entries with the same prefix
+* Analyzed Password Cracker Simulator using Backtracking problem statement
+* Generated all possible strings of length n to simulate password combinations
+* Implemented early stopping when the correct password was found
+* Visualized and analyzed time-space complexity of backtracking
+
+
+
+📚 Concepts Learned
+
+* Radix Sort algorithm and stability of sorting
+* Binary Search for efficient lookup in sorted data
+* Backtracking for generating all possible combinations
+* Time-space trade-offs in combinatorial algorithms
+* Application of algorithmic strategies to real-world scenarios
+
+
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* Data Structures & Algorithms
+* Console-based program simulation
+
+
+
+⚠️ Challenges Faced
+
+* Managing large numeric datasets efficiently with Radix Sort
+* Generating and managing combinatorial string possibilities without excessive memory usage
+* Implementing early stopping in backtracking to reduce computation
+
+
+
+🧩 Solution / Approach
+
+* Used Radix Sort for efficient numeric sorting
+* Applied Binary Search for quick lookup in sorted data
+* Implemented Backtracking to systematically generate and check password combinations
+* Optimized for early termination and minimal memory overhead
+
+
+
+🎯 Key Takeaways
+
+* Radix Sort is highly efficient for fixed-length numeric datasets
+* Binary Search complements sorting for fast searche
+* Backtracking is effective for exhaustive search but requires careful memory and time management
+* Algorithm selection depends on problem constraints and data characteristics
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+📅 Date & Day
+* 21 January 2026 – Wednesday
+
+🎯 Objective & Tasks of the Day
+* The objective of the day was to implement real-world sorting and queue management scenarios using Data Structures and Core C#. The focus was on efficient handling of large datasets *
+* and dynamic customer queue management.
+
+
+
+✅ Work Completed
+
+* Analyzed EduResults – Rank Sheet Generator problem statement
+* Implemented Merge Sort to merge sorted lists from different districts
+* Ensured stability to maintain order of duplicate scores
+* Handled large datasets efficiently to generate final state-wise rank lists
+* Analyzed SmartCheckout – Supermarket Billing Queue problem statement
+* Implemented a Queue to manage customers at each checkout counter
+* Used HashMap to store item prices and stock availability
+* Added functionality to add/remove customers, fetch item prices, and update stock after purchase
+
+
+
+📚 Concepts Learned
+
+* Merge Sort algorithm for merging multiple sorted lists
+* Stability in sorting algorithms
+* Queue data structure for first-in-first-out customer handling
+* HashMap / Dictionary for fast lookup of item prices and stock
+* Efficient handling of large datasets and dynamic operations
+
+
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* Data Structures & Algorithms
+* Console-based program simulation
+
+
+
+⚠️ Challenges Faced
+
+* Merging multiple large lists without losing order of duplicate scores
+* Synchronizing customer queue operations with real-time stock updates
+* Maintaining performance with frequent queue and map operations
+
+
+
+🧩 Solution / Approach
+
+* Used Merge Sort to merge district-wise student scores efficiently
+* Maintained algorithm stability to handle duplicate scores correctly
+* Applied Queue for customer management at checkout counters
+* Used HashMap for fast price lookup and stock updates
+* Designed modular methods for adding/removing customers and updating stock
+
+
+🎯 Key Takeaways
+
+* Merge Sort is ideal for merging multiple pre-sorted lists while maintaining stability
+* Queues effectively model real-world FIFO systems like checkout counters
+* HashMaps provide constant-time access for price and stock retrieval
+* Combining multiple data structures improves efficiency in practical applications
