@@ -515,3 +515,7 @@
 * Queues effectively model real-world FIFO systems like checkout counters
 * HashMaps provide constant-time access for price and stock retrieval
 * Combining multiple data structures improves efficiency in practical applications
+
+
+
+---
