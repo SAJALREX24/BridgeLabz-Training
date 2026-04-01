@@ -648,4 +648,739 @@ Buffered Streams for performance optimization
 * Custom exceptions help model real-world error scenarios clearly
 * Proper use of throw and exception propagation improves code clarity
 * Structured error handling significantly improves application reliability 🚀
+---
 
+📅 Date & Day
+26 January 2026 – Monday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to learn pattern matching using Regular Expressions and * understand unit testing using the NUnit framework to ensure code correctness and    * reliability.
+
+✅ Work Completed
+
+* Studied Regular Expressions (Regex) and their practical applications
+* Learned about MetaCharacters and Quantifiers for pattern building
+* Implemented common real-world validation patterns:
+* Email validation
+* Password strength validation
+* Phone number format validation
+* Explored C# Regex API
+* Understood key components:
+* Pattern creation
+* Matcher usage
+* Practiced commonly used methods:
+* find() for searching patterns
+* matches() for full string matching
+* replaceAll() for replacing matched patterns
+* Introduced to NUnit Framework for unit testing
+* Learned NUnit Annotations
+* Wrote basic test cases
+* Understood the structure of a test class
+* Used Assertions to validate expected outcomes
+
+📚 Concepts Learned
+
+* Regex pattern creation using metacharacters and quantifiers
+* Real-world input validation using regex
+* Pattern matching and string manipulation techniques
+* Difference between partial match (find) and full match (matches)
+* Replacing text using regex
+* Basics of unit testing using NUnit
+* Writing structured and maintainable test cases
+* Using assertions to verify correctness of code
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* Regex (System.Text.RegularExpressions)
+* NUnit Testing Framework
+* Console-based testing and validation
+
+⚠️ Challenges Faced
+
+* Writing correct regex patterns for complex validations
+* Debugging regex when patterns didn’t match expected inputs
+* Understanding differences between various regex methods
+* Structuring test cases properly in NUnit
+* Choosing appropriate assertions for validation
+
+🧩 Solution / Approach
+
+* Broke down regex patterns into smaller components (metacharacters + quantifiers)
+* Tested patterns with multiple input cases to ensure correctness
+* Practiced different regex methods to understand behavior differences
+* Followed a structured approach for writing NUnit test cases
+* Used assertions effectively to validate different scenarios
+
+🎯 Key Takeaways
+
+* Regex is a powerful tool for input validation and text processing
+* Breaking patterns into smaller parts makes regex easier to understand
+* Proper validation improves application security and data integrity
+* Unit testing with NUnit ensures code reliability and reduces bugs
+* Writing test cases is as important as writing the actual logic 🚀
+
+---
+📅 Date & Day
+27 January 2026 – Tuesday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to understand annotations and reflection in .NET, and * * how metadata-driven programming can be used to build flexible, dynamic, and          * extensible applications.
+
+✅ Work Completed
+
+* Studied Introduction to Annotations and their purpose in adding metadata
+* Explored Common Built-in Annotations
+* Learned how to create Custom Annotations
+* Implemented Advanced Custom Annotations with additional properties
+* Analyzed real-world use cases of annotations in frameworks
+* Explored Annotation Processing Tools
+* Gained understanding of Reflection and its importance
+* Practiced using Reflection in .NET to inspect classes, methods, and properties at      runtime
+* Connected Annotations and Reflection to dynamically read metadata and modify behavior
+
+📚 Concepts Learned
+
+* Role of annotations in metadata-driven development
+* Difference between built-in and custom annotations
+* Designing custom annotations with parameters
+* Practical use cases like validation, logging, and configuration
+* Reflection for runtime inspection of assemblies, classes, and methods
+* Dynamically invoking methods using reflection
+* Combining annotations with reflection for flexible system design
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* .NET Reflection API
+* Custom Attributes (Annotations)
+* Console-based experimentation
+
+⚠️ Challenges Faced
+
+* Understanding abstract concepts of metadata and annotations
+* Writing advanced custom annotations with multiple properties
+* Using reflection syntax correctly (types, methods, properties)
+* Managing performance considerations when using reflection
+* Connecting annotations with reflection in practical scenarios
+
+🧩 Solution / Approach
+
+* Started with basic annotations and gradually moved to custom ones
+* Practiced defining attributes with constructors and properties
+* Used reflection step-by-step to inspect types and members
+* Implemented small examples to connect annotations with runtime behavior
+* Focused on real-world scenarios like validation and logging
+
+🎯 Key Takeaways
+
+* Annotations (Attributes in .NET) enable metadata-driven programming
+* Reflection allows dynamic inspection and execution at runtime
+* Combining annotations with reflection enables highly flexible systems
+* Custom annotations are powerful for building reusable frameworks
+* Reflection should be used carefully due to performance overhead ⚡
+---
+📅 Date & Day
+28 January 2026 – Wednesday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to understand CSV (Comma-Separated Values) file        *  handling in C# and learn how to efficiently read, write, parse, and validate        * structured data for real-world applications.
+
+✅ Work Completed
+
+* Studied Introduction to CSV and its use in data storage and exchange
+* Implemented reading CSV files in C#
+* Implemented writing data to CSV files
+* Practiced parsing CSV data into structured formats (objects/fields)
+* Applied data validation techniques while reading and processing CSV data
+* Handled common issues like missing values, incorrect formats, and delimiters
+
+📚 Concepts Learned
+
+* CSV as a lightweight format for data storage and transfer
+* File handling techniques for reading and writing CSV files
+* Parsing raw CSV data into structured objects
+* Handling delimiters and edge cases in CSV files
+* Data validation to ensure accuracy and consistency
+* Importance of clean data for reliable application behavior
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* File I/O Operations
+* Stream Readers and Writers
+* Console-based data processing
+
+⚠️ Challenges Faced
+
+* Handling inconsistent or malformed CSV data
+* Managing missing or extra fields in rows
+* Parsing complex CSV structures correctly
+* Ensuring proper validation without breaking program flow
+
+🧩 Solution / Approach
+
+* Used structured parsing logic to split and map CSV fields
+* Implemented validation checks for each row before processing
+* Handled edge cases like empty values and incorrect formats
+* Used StreamReader and StreamWriter for efficient file operations
+* Tested with multiple datasets to ensure robustness
+
+🎯 Key Takeaways
+
+* CSV is widely used for data exchange due to its simplicity and flexibility
+* Proper parsing and validation are essential for handling real-world data
+* File handling combined with validation builds reliable data pipelines
+* Structured data processing is a key skill for backend and enterprise applications
+---
+📅 Date & Day
+29 January 2026 – Thursday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to understand JSON (JavaScript Object Notation)         * handling in C# and learn how to read, write, parse, and validate JSON data for      * modern application development and API integration.
+
+✅ Work Completed
+
+* Studied Introduction to JSON and its role in data exchange
+* Implemented reading JSON data from files
+* Implemented writing data to JSON files
+* Practiced parsing JSON data into objects and structured formats
+* Applied JSON Schema Validation to ensure data correctness
+* Handled nested JSON structures and complex data formats
+
+📚 Concepts Learned
+
+* JSON as a widely used format for APIs and web applications
+* Serialization and deserialization in C#
+* Parsing JSON into strongly typed objects
+* Handling nested and hierarchical data structures
+* Validating JSON using schemas
+* Ensuring data consistency and integrity
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* JSON Libraries (e.g., System.Text.Json / Newtonsoft.Json)
+* File I/O Operations
+* Console-based data processing
+
+⚠️ Challenges Faced
+
+* Handling deeply nested JSON structures
+* Mapping JSON data to correct object models
+* Debugging parsing errors
+* Implementing schema validation correctly
+* Managing differences between expected and actual data formats
+
+🧩 Solution / Approach
+
+* Used serialization/deserialization techniques for clean data mapping
+* Created structured classes to match JSON schema
+* Validated JSON data before processing
+* Handled nested structures step-by-step
+* Tested with multiple JSON samples to ensure robustness
+
+🎯 Key Takeaways
+
+* JSON is the backbone of modern APIs and data exchange
+* Serialization and deserialization simplify data handling
+* Schema validation ensures reliable and error-free data processing
+* Handling nested data structures is essential for real-world applications
+* Strong JSON handling skills are crucial for backend and full-stack development 🚀
+
+---
+🎯 Key Takeaways
+
+Scenario-based questions improve real-world problem-solving skills
+String manipulation is a crucial skill for coding interviews
+Breaking problems into smaller steps makes them easier to solve
+Testing edge cases is essential for robust solutions
+Clean and modular code improves readability and maintainability 🚀
+---
+📅 Date & Day
+30 January 2026 – Friday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to apply problem-solving skills by solving a scenario- * based question (Lexical Twist), focusing on string manipulation and logical         * processing using Core C#.
+
+✅ Work Completed
+
+* Analyzed Lexical Twist scenario-based problem statement
+* Identified requirements related to string manipulation and transformation
+* Implemented logic to process and modify strings based on given conditions
+* Handled edge cases in input data
+* Ensured correctness and efficiency of the solution
+
+📚 Concepts Learned
+
+* String manipulation techniques in C#
+* Problem decomposition for scenario-based questions
+* Handling edge cases in string processing
+* Logical thinking for transformation-based problems
+* Writing clean and modular code for better readability
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* String Handling Methods
+* Console-based problem solving
+
+⚠️ Challenges Faced
+
+* Understanding the problem requirements clearly
+* Handling multiple transformation conditions
+* Managing edge cases like empty or invalid input
+* Ensuring optimized string operations
+
+🧩 Solution / Approach
+
+* Broke down the problem into smaller steps
+* Applied step-by-step string transformations
+* Used built-in string methods for efficient processing
+* Tested with multiple input cases to ensure correctness
+* Refactored code for clarity and maintainability
+
+🎯 Key Takeaways
+
+* Scenario-based questions improve real-world problem-solving skills
+* String manipulation is a crucial skill for coding interviews
+* Breaking problems into smaller steps makes them easier to solve
+* Testing edge cases is essential for robust solutions
+* Clean and modular code improves readability and maintainability 🚀
+---
+📅 Date & Day
+31 January 2026 – Saturday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to strengthen scenario-based problem-solving skills by * solving the Future Logistics problem, focusing on efficient data handling, logical * flow, and real-world system modeling.
+
+✅ Work Completed
+
+* Analyzed Future Logistics scenario-based problem statement
+* Identified key requirements related to logistics management and data processing
+* Designed logic to handle transportation, routing, or scheduling scenarios
+* Implemented solution using appropriate data structures and control flow
+* Considered real-world constraints and edge cases
+* Tested the solution with multiple input scenarios
+
+📚 Concepts Learned
+
+* Scenario-based problem solving for real-world systems
+* Logical design for logistics and operational workflows
+* Efficient data handling and processing
+* Use of appropriate data structures based on problem requirements
+* Importance of handling edge cases and constraints
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* Data Structures & Algorithms
+* Console-based simulation
+
+⚠️ Challenges Faced
+
+* Understanding complex real-world logistics requirements
+* Designing efficient logic for multiple conditions and constraints
+* Handling edge cases like delays, invalid inputs, or missing data
+* Maintaining clarity in implementation for a complex scenario
+
+🧩 Solution / Approach
+
+* Broke down the logistics scenario into smaller manageable components
+* Applied structured logic for handling different cases
+* Used suitable data structures for efficient processing
+* Tested thoroughly with various scenarios to ensure correctness
+* Refactored code for better readability and maintainability
+
+🎯 Key Takeaways
+
+* Scenario-based problems simulate real-world system design challenges
+* Proper problem breakdown is key to solving complex scenarios
+* Choosing the right data structure improves efficiency
+* Testing multiple cases ensures robust solutions
+* Continuous practice builds strong problem-solving confidence 🚀
+---
+📅 Date & Day
+02 February 2026 – Monday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to understand OOP Design Principles and learn how to  * write clean, maintainable, and scalable code using SOLID principles along with best * practices like KISS, DRY, and DIY.
+
+✅ Work Completed
+
+* Studied core OOP Design Principles
+* Learned SOLID principles in detail:
+* Single Responsibility Principle (SRP) – One class, one responsibility
+* Open/Closed Principle (OCP) – Extend without modifying existing code
+* Liskov Substitution Principle (LSP) – Child classes must behave correctly when used   as parent
+* Interface Segregation Principle (ISP) – Use small, specific interfaces
+* Dependency Inversion Principle (DIP) – Depend on abstractions, not concrete           implementations
+* Understood additional best practices:
+* KISS (Keep It Simple, Stupid) – Keep design simple and readable
+* DRY (Don’t Repeat Yourself) – Avoid code duplication
+* DIY (Do It Yourself) – Learn through hands-on implementation
+
+📚 Concepts Learned
+
+* Writing maintainable and scalable object-oriented code
+* Designing loosely coupled and highly cohesive systems
+* Importance of abstraction and interface-based design
+* Reducing code duplication and improving reusability
+* Keeping code simple and easy to understand
+* Learning through implementation rather than theory
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* Object-Oriented Programming (OOP) Concepts
+* Design Principles & Best Practices
+
+⚠️ Challenges Faced
+
+* Understanding real-world application of SOLID principles
+* Differentiating between similar concepts like SRP and ISP
+* Applying DIP and abstraction correctly in code design
+* Avoiding over-engineering while following best practices
+
+🧩 Solution / Approach
+
+* Studied each principle with examples and real-world analogies
+* Broke down complex principles into simple use cases
+* Focused on writing small, modular classes
+* Practiced designing systems using interfaces and abstractions
+* Applied KISS and DRY while implementing solutions
+
+🎯 Key Takeaways
+
+* SOLID principles are the foundation of scalable software design
+* Good design reduces future code changes and bugs
+* Simplicity (KISS) leads to better readability and maintainability
+* Avoiding duplication (DRY) improves code quality
+* Hands-on practice (DIY) is the fastest way to master concepts 🚀
+---
+📅 Date & Day
+03 February 2026 – Tuesday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to understand Design Patterns and how they provide    * reusable solutions to common software design problems, helping in building         * flexible, maintainable, and scalable applications.
+
+✅ Work Completed
+
+* Studied Design Patterns and their importance in software development
+
+* Understood the three main categories of design patterns:
+
+1. Creational Design Patterns
+
+* Singleton – Ensures a single instance of a class
+* Factory Method – Creates objects without specifying exact class
+* Abstract Factory – Creates families of related objects
+* Builder – Constructs complex objects step-by-step
+* Prototype – Creates objects by copying existing ones
+
+2. Structural Design Patterns
+
+* Adapter – Makes incompatible interfaces work together
+* Bridge – Separates abstraction from implementation
+* Composite – Treats individual and group objects uniformly
+* Decorator – Adds functionality dynamically
+* Facade – Provides simplified interface to complex systems
+* Proxy – Acts as a placeholder for another object
+
+3. Behavioral Design Patterns
+
+* Observer – One-to-many dependency with automatic updates
+* Strategy – Interchangeable algorithms
+* Command – Encapsulates requests as objects
+* State – Changes behavior based on internal state
+* Template Method – Defines algorithm structure with flexible steps
+* Iterator – Sequential access to elements
+* Mediator – Centralized communication between objects
+* Understood why design patterns are used in real-world applications
+
+📚 Concepts Learned
+
+* Reusable solutions to recurring software design problems
+* Classification of design patterns (Creational, Structural, Behavioral)
+* Object creation strategies and flexibility
+* Managing relationships between classes and objects
+* Designing loosely coupled and scalable systems
+* Improving code maintainability using proven practices
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* Object-Oriented Programming (OOP)
+* Design Patterns Concepts
+
+⚠️ Challenges Faced
+
+* Understanding when to use which design pattern
+* Differentiating between similar patterns (e.g., Factory vs Abstract Factory)
+* Visualizing real-world applications of patterns
+* Avoiding overuse of patterns in simple scenarios
+
+🧩 Solution / Approach
+
+* Studied patterns category-wise instead of all at once
+* Focused on intent and use-case of each pattern
+* Related patterns to real-world scenarios for better understanding
+* Compared similar patterns to identify differences
+* Emphasized practical usage rather than memorization
+
+🎯 Key Takeaways
+
+* Design Patterns provide proven solutions to common problems
+* They improve code reusability, flexibility, and maintainability
+* Choosing the right pattern is more important than knowing many patterns
+* Overusing patterns can make code complex—use them wisely
+* Strong understanding of design patterns is key to becoming a skilled developer 🚀
+---
+
+⚠️ Challenges Faced
+
+* Understanding when to use Thread vs Task
+* Avoiding race conditions while sharing data
+* Grasping complex issues like deadlocks
+* Choosing the right synchronization mechanism
+* Writing efficient async code without blocking threads
+
+🧩 Solution / Approach
+
+* Focused on Task-based programming for most use cases
+* Practiced async/await for I/O-bound operations
+* Used locks and thread-safe collections to manage shared data
+* Studied real-world scenarios to understand concurrency issues
+* Followed best practices to avoid performance bottlenecks
+
+🎯 Key Takeaways
+
+* Multithreading improves performance and application responsiveness
+* Task + async/await is the modern and preferred approach
+* Proper synchronization is critical to avoid data corruption
+* Concurrent collections simplify thread-safe operations
+* Writing efficient multithreaded code is essential for scalable applications 🚀
+
+---
+📅 Date & Day
+04 February 2026 – Wednesday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to understand Multithreading in .NET and learn how to * build high-performance, responsive, and concurrent applications using modern        * threading techniques.
+
+✅ Work Completed
+
+* Studied Multithreading in .NET and its real-world use cases
+* Understood differences between:
+* Thread (low-level, manual control)
+* Task (high-level, recommended approach)
+* Explored different threading models:
+* Manual Threading using Thread
+* ThreadPool for efficient thread reuse
+* Task Parallel Library (TPL) using Task, Parallel.For, Parallel.ForEach
+* async/await for non-blocking asynchronous programming
+* Learned about synchronization techniques to avoid concurrency issues:
+* lock (Monitor)
+* Mutex
+* Semaphore / SemaphoreSlim
+* Interlocked operations
+* Concurrent Collections
+* Studied common multithreading problems:
+* Race Condition
+* Deadlock
+* Starvation
+* Reviewed best practices for writing efficient multithreaded code
+
+📚 Concepts Learned
+
+* Parallel execution and concurrency in applications
+* Difference between CPU-bound and I/O-bound tasks
+* Advantages of Task-based programming over manual threading
+* Thread safety and synchronization mechanisms
+* Managing shared resources across multiple threads
+* Avoiding common concurrency issues like race conditions and deadlocks
+
+🛠 Tools & Technologies Used
+
+* Core C#
+* .NET Threading (System.Threading)
+* Task Parallel Library (System.Threading.Tasks)
+* Concurrent Collections
+
+⚠️ Challenges Faced
+
+* Understanding when to use Thread vs Task
+* Avoiding race conditions while sharing data
+* Grasping complex issues like deadlocks
+* Choosing the right synchronization mechanism
+* Writing efficient async code without blocking threads
+
+🧩 Solution / Approach
+
+* Focused on Task-based programming for most use cases
+* Practiced async/await for I/O-bound operations
+* Used locks and thread-safe collections to manage shared data
+* Studied real-world scenarios to understand concurrency issues
+* Followed best practices to avoid performance bottlenecks
+
+🎯 Key Takeaways
+
+* Multithreading improves performance and application responsiveness
+* Task + async/await is the modern and preferred approach
+* Proper synchronization is critical to avoid data corruption
+* Concurrent collections simplify thread-safe operations
+* Writing efficient multithreaded code is essential for scalable applications 🚀
+
+---
+📅 Date & Day
+05 February 2026 – Thursday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to understand SQL and RDBMS concepts and build a      * strong foundation for designing scalable, secure, and high-performance database-    * driven applications used in real-world systems.
+
+✅ Work Completed
+
+* Studied core Database Design Principles
+* Learned Normalization techniques:
+* 1NF, 2NF, 3NF, BCNF
+* Understood Primary Keys, Foreign Keys, and Constraints
+* Explored Relationships:
+* One-to-One
+* One-to-Many
+* Many-to-Many
+* Practiced SQL Queries:
+* SELECT, INSERT, UPDATE, DELETE
+* Learned different types of Joins:
+* INNER, LEFT, RIGHT, FULL
+* Studied Subqueries and Nested Queries
+* Used Aggregate Functions with grouping
+* Understood Transactions and ACID Properties
+* Explored Indexing and Query Optimization
+* Learned Performance Tuning Techniques
+* Reviewed Database Security Best Practices
+* Understood Industry standards and real-world database practices
+
+📚 Concepts Learned
+
+* Designing efficient and normalized database schemas
+* Maintaining data integrity using keys and constraints
+* Querying and manipulating data using SQL
+* Combining data from multiple tables using joins
+* Writing complex queries using subqueries
+* Using aggregation for data analysis
+* Ensuring data consistency using transactions (ACID)
+* Improving performance using indexing and optimization
+* Securing databases against unauthorized access
+
+🛠 Tools & Technologies Used
+
+* SQL
+* Relational Database Management Systems (RDBMS)
+* Query Execution & Optimization Techniques
+
+⚠️ Challenges Faced
+
+* Understanding higher normal forms like BCNF
+* Writing complex join and nested queries
+* Optimizing queries for performance
+* Balancing normalization with performance needs
+* Understanding real-world database design trade-offs
+
+🧩 Solution / Approach
+
+* Broke down normalization step-by-step with examples
+* Practiced SQL queries with different scenarios
+* Analyzed query execution and optimized using indexing
+* Studied real-world database structures for better understanding
+* Focused on both theoretical concepts and practical usage
+
+🎯 Key Takeaways
+
+* Strong SQL and RDBMS knowledge is essential for backend development
+* Normalization improves data consistency but must be balanced with performance
+* Joins and subqueries are powerful tools for complex data retrieval
+* Indexing significantly improves query performance
+* Database design plays a critical role in scalability and security 🚀
+---
+📅 Date & Day
+06 February 2026 – Friday
+
+🎯 Objective & Tasks of the Day
+
+* The objective of the day was to learn Microsoft SQL Server (MSSQL) concepts and    * understand how to build secure, optimized, and enterprise-ready database solutions * using advanced database programming techniques.
+
+✅ Work Completed
+
+* Studied core MSSQL programming concepts and SQL syntax
+* Learned different constraints and keys for data integrity:
+* Primary Key
+* Foreign Key
+* Unique Key
+* Check Constraint
+* Default Constraint
+* Practiced SQL Joins and Subqueries:
+* INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
+* Correlated and Nested Subqueries
+* Used Aggregate Functions and Grouping:
+* COUNT(), SUM(), AVG(), MIN(), MAX()
+* GROUP BY and HAVING
+* Implemented Stored Procedures and User-Defined Functions (UDFs):
+* Parameterized procedures
+* Scalar and Table-valued functions
+* Studied Views for data abstraction and security
+* Learned about Cursors for row-by-row processing
+* Explored DCL Commands:
+* GRANT, REVOKE, DENY
+* Understood user roles and permission management
+
+📚 Concepts Learned
+
+* Writing advanced SQL queries in MSSQL
+* Maintaining data integrity using constraints
+* Efficient data retrieval using joins and subqueries
+* Data aggregation and grouping techniques
+* Encapsulating logic using stored procedures and functions
+* Using views for abstraction and restricted access
+* Understanding cursor-based processing and its trade-offs
+* Managing database security using roles and permissions
+
+🛠 Tools & Technologies Used
+
+* Microsoft SQL Server (MSSQL)
+* SQL Server Management Studio (SSMS)
+* Advanced SQL Programming
+
+⚠️ Challenges Faced
+
+* Writing complex joins and correlated subqueries
+* Understanding when to use stored procedures vs functions
+* Managing cursor performance and avoiding inefficiencies
+* Implementing proper permission and security controls
+* Balancing performance with readability in SQL queries
+
+🧩 Solution / Approach
+
+* Practiced SQL queries with real-world scenarios
+* Used stored procedures to modularize database logic
+* Applied views to simplify complex queries
+* Avoided excessive cursor usage and focused on set-based operations
+* Implemented proper access control using DCL commands
+
+🎯 Key Takeaways
+
+* MSSQL provides powerful tools for enterprise-level database development
+* Stored procedures and functions improve modularity and reusability
+* Views enhance security and simplify data access
+* Set-based operations are preferred over cursors for performance
+* Proper permission management is critical for secure systems 🔐
+---
