@@ -590,62 +590,62 @@ Buffered Streams for performance optimization
 
 🎯 Objective & Tasks of the Day
 
-The objective of the day was to understand exception handling in C# and learn how to manage runtime errors effectively using built-in and custom exception mechanisms to build robust and fault-tolerant applications.
+* The objective of the day was to understand exception handling in C# and learn how to manage runtime errors effectively using built-in and custom   exception mechanisms to build robust and fault-tolerant applications.
 
 ✅ Work Completed
 
-Studied Exceptions and their role in handling runtime errors
-Explored different types of exceptions
-Checked Exceptions (compile-time awareness concept)
-Unchecked Exceptions (runtime errors)
-Learned how to handle exceptions using:
-try-catch blocks
-try-catch-finally blocks
-try-with-resources statement (for automatic resource management)
-Understood the usage of:
-throw statement to explicitly raise exceptions
-throws clause to declare exception propagation
-Implemented Custom Exceptions
-Extended the base Exception class to create user-defined exceptions
-Defined constructors in custom exception classes for flexible error messages
+* Studied Exceptions and their role in handling runtime errors
+* Explored different types of exceptions
+* Checked Exceptions (compile-time awareness concept)
+* Unchecked Exceptions (runtime errors)
+* Learned how to handle exceptions using:
+* try-catch blocks
+* try-catch-finally blocks
+* try-with-resources statement (for automatic resource management)
+* Understood the usage of:
+* throw statement to explicitly raise exceptions
+* throws clause to declare exception propagation
+* Implemented Custom Exceptions
+* Extended the base Exception class to create user-defined exceptions
+* Defined constructors in custom exception classes for flexible error messages
 
 📚 Concepts Learned
 
-Exception handling for building reliable applications
-Difference between checked and unchecked exceptions
-Flow of exception handling using try-catch-finally
-Automatic resource management using try-with-resources
-Raising exceptions manually using throw
-Propagating exceptions using throws
-Creating domain-specific errors using custom exceptions
-Extending base Exception class and defining constructors
+* Exception handling for building reliable applications
+* Difference between checked and unchecked exceptions
+* Flow of exception handling using try-catch-finally
+* Automatic resource management using try-with-resources
+* Raising exceptions manually using throw
+* Propagating exceptions using throws
+* Creating domain-specific errors using custom exceptions
+* Extending base Exception class and defining constructors
 
 🛠 Tools & Technologies Used
 
-Core C#
-Exception Handling Mechanisms
-Console-based program simulation
+* Core C#
+* Exception Handling Mechanisms
+* Console-based program simulation
 
 ⚠️ Challenges Faced
 
-Understanding the difference between checked and unchecked exceptions conceptually
-Deciding when to handle exceptions vs when to propagate them
-Designing meaningful custom exception classes
-Managing resource cleanup effectively
+* Understanding the difference between checked and unchecked exceptions conceptually
+* Deciding when to handle exceptions vs when to propagate them
+* Designing meaningful custom exception classes
+* Managing resource cleanup effectively
 
 🧩 Solution / Approach
 
-Practiced multiple try-catch combinations to understand execution flow
-Used finally blocks to ensure proper resource cleanup
-Implemented custom exceptions by extending the Exception class
-Designed constructors to pass detailed error messages
-Applied structured error handling to make programs more robust
+* Practiced multiple try-catch combinations to understand execution flow
+* Used finally blocks to ensure proper resource cleanup
+* Implemented custom exceptions by extending the Exception class
+* Designed constructors to pass detailed error messages
+* Applied structured error handling to make programs more robust
 
 🎯 Key Takeaways
 
-Exception handling is critical for building stable and user-friendly applications
-try-catch-finally ensures controlled execution even during failures
-Custom exceptions help model real-world error scenarios clearly
-Proper use of throw and exception propagation improves code clarity
-Structured error handling significantly improves application reliability 🚀
+* Exception handling is critical for building stable and user-friendly applications
+* try-catch-finally ensures controlled execution even during failures
+* Custom exceptions help model real-world error scenarios clearly
+* Proper use of throw and exception propagation improves code clarity
+* Structured error handling significantly improves application reliability 🚀
 
