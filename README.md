@@ -1,134 +1,138 @@
-# 📚 Day 1 - Database Programming | DBMS Fundamentals & RDBMS Basics
+Backend Refresher Training — BridgeLabz
 
-This repository contains my **Day 1 learning** from the **Database Programming** module. It covers the fundamental concepts of Database Management Systems (DBMS), Relational Database Management Systems (RDBMS), Microsoft SQL Server, T-SQL, and database design using ER diagrams.
 
----
+Day 1 | Database Programming Basics
+📌 Progress Overview
 
-## 📖 Topics Covered
+Topic: RDBMS Fundamentals & SQL Setup | Status: ✅ Done
 
-### 1. DBMS Fundamentals
-- Introduction to Database Management Systems
-- Purpose of a DBMS
-- Advantages of using databases
-- Database architecture
-- Types of databases
+💡 Topics Covered
 
-### 2. RDBMS Basics
-- What is an RDBMS?
-- Tables, Rows, and Columns
-- Primary Keys
-- Foreign Keys
-- Relationships between tables
-- Constraints
+DBMS vs. RDBMS: Understanding relational vs. non-relational database models and their ideal use cases.
 
-### 3. Relational vs Non-Relational Databases
-- RDBMS
-- NoSQL Databases
-- Key differences
-- Real-world use cases
-- Advantages and disadvantages
+Tools of the Trade: Introduction to MS SQL Server and T-SQL.
 
-### 4. Microsoft SQL Server & T-SQL
-- Introduction to SQL Server
-- SQL Server Management Studio (SSMS)
-- What is T-SQL?
-- SQL vs T-SQL
-- Basic T-SQL syntax
+RDBMS Fundamentals: Core concepts behind structuring and managing databases.
 
-### 5. RDBMS Concepts
-- Database
-- Table
-- Record
-- Field
-- Keys
-- Relationships
-- Normalization (Introduction)
+🛠️ Tasks Completed
 
-### 6. DDL (Data Definition Language)
-- CREATE
-- ALTER
-- DROP
-- TRUNCATE
+Environment Setup: Successfully installed and configured MS SQL Server.
 
-### 7. DML (Data Manipulation Language)
-- INSERT
-- UPDATE
-- DELETE
-- SELECT
+Database Design: Sketched an ER Diagram for a Health Clinic Application (modeling Patients, Doctors, and Appointments).
 
-### 8. SQL Server Environment Setup
-- Install SQL Server
-- Install SQL Server Management Studio (SSMS)
-- Connect to SQL Server
-- Create a Database
-- Create Tables
-- Execute SQL Queries
+Implementation: Wrote and pushed the initial SQL scripts to create the database schema.
 
-### 9. ER Diagram (Health Clinic Application)
-Designed an Entity Relationship Diagram (ERD) for a Health Clinic Management System.
+Day 2 | Advanced DB Programming & Indexing
+📌 Progress Overview
 
-#### Entities
-- Patients
-- Doctors
-- Appointments
+Topic: Advanced RDBMS & Query Optimization | Status: ✅ Done
 
-#### Relationships
-- One Doctor → Many Appointments
-- One Patient → Many Appointments
+💡 Topics Covered
 
----
+Database Concepts: Deep dive into Entities, Attributes, Relationships, Cardinality, and Primary/Foreign Keys.
 
-## 🛠️ Technologies Used
+Indexes: The mechanics of Clustered, Non-Clustered, Unique, and Composite Indexes.
 
-- Microsoft SQL Server
-- SQL Server Management Studio (SSMS)
-- T-SQL
-- ER Diagram
+Normalization: Database normalization rules (1NF, 2NF, 3NF, and BCNF) to reduce redundancy.
 
----
+🛠️ Tasks Completed
 
-## 📂 Repository Structure
+Schema Extension: Expanded the database by adding a rooms table and a doctor_room mapping table.
 
-```
-Day-1-Database-Programming
-│
-├── README.md
-├── SQL Scripts
-│   ├── CreateDatabase.sql
-│   ├── CreateTables.sql
-│   ├── DDL_Examples.sql
-│   ├── DML_Examples.sql
-│   └── SampleQueries.sql
-│
-└── ER Diagram
-    └── HealthClinicERD.png
-```
+Query Optimization: Executed performance analysis on appointment queries (comparing No Index, Single-Column, and Composite Indexes) to measure row execution metrics.
 
----
+Normalization Audit: Evaluated the patient_phones structure against 1NF, 2NF, and 3NF, documenting the justification for each structural change.
 
-## 🎯 Learning Outcomes
+Covering Index: Created and verified a covering index for doctor_id, appointment_date, and status.
 
-After completing Day 1, I learned:
+Day 3 | SQL Joins, Stored Procedures & Triggers
+📌 Progress Overview
 
-- Database fundamentals
-- Difference between DBMS and RDBMS
-- Relational vs Non-Relational databases
-- SQL Server setup and configuration
-- Basic T-SQL programming
-- DDL and DML commands
-- Designing ER diagrams
-- Creating relationships using Primary and Foreign Keys
+Topic: Joins, Procedures & Database Automation | Status: ✅ Done
 
----
+💡 Topics Covered
 
-## 🚀 Future Topics
+SQL Joins: Mastering Inner, Left, Right, and Full Outer Joins for data retrieval.
 
-- Constraints
-- Joins
-- Stored Procedures
-- Functions
-- Views
-- Triggers
-- Transactions
-- Normalization
-- Indexes
+Stored Procedures: Writing modular, parameterized SQL scripts for routine operations.
+
+Database Triggers: Automating database actions using DML triggers (INSERT, UPDATE, DELETE).
+
+Audit Logging: Best practices for tracking data modifications over time.
+
+🛠️ Tasks Completed
+
+Joins Practice: Wrote complex join queries to retrieve connected data across the Health Clinic database.
+
+Stored Procedures: Authored procedures to manage CRUD actions for Patients, Doctors, Appointments, Billing, and VisitHistory.
+
+Audit System: Designed an AuditLog table and implemented triggers on critical tables to automatically record historical changes.
+
+Day 4 | ADO.NET & Health Clinic App
+📌 Progress Overview
+
+Topic: C# Database Connectivity (ADO.NET) | Status: ✅ Done
+
+💡 Topics Covered
+
+ADO.NET Architecture: Understanding the differences between Connected and Disconnected states.
+
+SQL Server Connectivity: Bridging a .NET application with an MS SQL Server database.
+
+CRUD Execution: Utilizing SqlConnection, SqlCommand, SqlDataReader, and SqlDataAdapter for data manipulation.
+
+🛠️ Tasks Completed
+
+App Integration: Successfully connected the Health Clinic console application to the local MS SQL Server.
+
+Backend Logic: Implemented complete CRUD capabilities for all major entities (Patients, Doctors, Appointments, etc.).
+
+Architecture Mapping: Ensured the finalized SQL ER diagram accurately reflected the C# application's data models.
+
+Day 5 | Backend Basics – ASP.NET Core Web API
+📌 Progress Overview
+
+Topic: Web APIs & RESTful Services | Status: ✅ Done
+
+💡 Topics Covered
+
+ASP.NET Core: Introduction to the modern .NET framework, dependency injection, and middleware.
+
+Web APIs: How APIs facilitate client-server communication.
+
+REST Architecture: REST principles, HTTP request methods (GET, POST, PUT, DELETE), and standard status codes.
+
+Project Structure: Organizing controllers, routes, and application startup configurations.
+
+🛠️ Tasks Completed
+
+Scaffolding: Set up a brand new ASP.NET Core Web API project.
+
+Controllers & Routing: Built API controllers featuring standard RESTful endpoint routing.
+
+In-Memory CRUD: Created foundational GET and POST endpoints using temporary in-memory data storage to test request/response handling.
+
+Day 6 | MVC Pattern & REST Request Handling
+📌 Progress Overview
+
+Topic: Full-Stack Integration via MVC Architecture | Status: ✅ Done
+
+💡 Topics Covered
+
+Model-View-Controller (MVC): Organizing code logically into Models (data), Views (UI), and Controllers (routing/logic).
+
+C# REST API Calls: Handling HTTP GET and POST requests dynamically based on user input.
+
+Static File Serving: Configuring a .NET backend to host and serve a custom HTML/CSS/JS frontend.
+
+Client-Server Communication: Using the JavaScript fetch API to send data to the backend and receive JSON responses.
+
+🛠️ Tasks Completed
+
+Built 'My Greetings App': Created a full-stack web application using ASP.NET Core Web API.
+
+Architectural Setup: Structured the project with dedicated Controllers, Models, and Views folders to strictly adhere to the MVC pattern.
+
+Frontend Integration: Developed a custom UI (index.html, greeting.css, greeting.js) and configured Program.cs to serve these static files using UseDefaultFiles() and UseStaticFiles().
+
+API Endpoints: Wrote a HomeController that handles a POST request to save a user's name to a repository, and a GET request to return a personalized greeting directly to the browser popup.
