@@ -503,11 +503,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Day-5\\project-demo\\project-demo.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\BridgeLabz-Training\\Day-5\\project-demo\\project-demo.csproj",
       "projectName": "project-demo",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\Day-5\\project-demo\\project-demo.csproj",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\BridgeLabz-Training\\Day-5\\project-demo\\project-demo.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Desktop\\Day-5\\project-demo\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\BridgeLabz-Training\\Day-5\\project-demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
