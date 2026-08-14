@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VxBc/bz3lIc=",
+  "dgSpecHash": "0dLP8+Qz+Fo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Desktop\\contact\\ContactsApp\\ContactsApp.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\BridgeLabz-Training\\Day-8\\contact\\ContactsApp\\ContactsApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.13\\microsoft.bcl.cryptography.9.0.13.nupkg.sha512",
