@@ -142,17 +142,17 @@ Day 7 Topic: Minimal APIs | Status: ✅ Done
 
 💡 Topics Covered
 
-Minimal APIs in ASP.NET Core.
+Core Concepts: Minimal APIs in ASP.NET Core.
 
-RESTful endpoints and HTTP methods.
+REST Architecture: RESTful endpoints and HTTP methods.
 
-Request and response handling.
+Data Flow: Request and response handling.
 
 🛠️ Tasks Completed
 
-Created a Contacts App backend using Minimal APIs.
+Backend Initialization: Created a Contacts App backend using Minimal APIs.
 
-Implemented basic CRUD endpoints.
+Endpoint Logic: Implemented basic CRUD endpoints.
 
 Day 8 | Swagger & API Testing
 📌 Progress Overview
@@ -161,17 +161,17 @@ Day 8 Topic: Swagger & API Testing | Status: ✅ Done
 
 💡 Topics Covered
 
-Swagger / OpenAPI documentation.
+OpenAPI Specs: Swagger / OpenAPI documentation.
 
-API endpoint testing and response handling.
+Quality Assurance: API endpoint testing and response handling.
 
-Introduction to distributed architecture.
+System Design: Introduction to distributed architecture.
 
 🛠️ Tasks Completed
 
-Integrated Swagger into the Contacts App.
+Swagger Integration: Integrated Swagger into the Contacts App.
 
-Tested and documented API endpoints using Swagger UI.
+API Verification: Tested and documented API endpoints using Swagger UI.
 
 Day 9 | Entity Framework Core
 📌 Progress Overview
@@ -180,17 +180,17 @@ Day 9 Topic: Entity Framework Core | Status: ✅ Done
 
 💡 Topics Covered
 
-ORM and Entity Framework Core.
+ORM Fundamentals: ORM and Entity Framework Core.
 
-Entities, DbContext, and database operations.
+EF Architecture: Entities, DbContext, and database operations.
 
-Dependency Injection in ASP.NET Core.
+Service Registration: Dependency Injection in ASP.NET Core.
 
 🛠️ Tasks Completed
 
-Converted the Contacts App to use Entity Framework Core.
+Backend Conversion: Converted the Contacts App to use Entity Framework Core.
 
-Implemented database-based CRUD operations.
+Data Operations: Implemented database-based CRUD operations.
 
 Day 10 | Entity Framework & N-Tier Architecture
 📌 Progress Overview
@@ -199,17 +199,16 @@ Day 10 Topic: Entity Framework & N-Tier Architecture | Status: ✅ Done
 
 💡 Topics Covered
 
-LINQ to Entities.
+Data Queries: LINQ to Entities.
 
-Entity Framework Core with REST APIs.
+EF Core Integration: Entity Framework Core with REST APIs.
 
-N-Tier / layered architecture.
+Enterprise Patterns: N-Tier / layered architecture.
 
 🛠️ Tasks Completed
 
-Created AddressBookWebApp using Entity Framework Core.
+Project Scaffold: Created AddressBookWebApp using Entity Framework Core.
 
-Implemented the application using N-Tier Architecture.
+Structural Design: Implemented the application using N-Tier Architecture.
 
-Used LINQ for database querying and CRUD operations.
-
+Query Execution: Used LINQ for database querying and CRUD operations.
