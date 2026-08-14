@@ -104,3 +104,82 @@
 2. **Architectural Setup:** Structured the project with dedicated `Controllers`, `Models`, and `Views` folders to strictly adhere to the MVC pattern.
 3. **Frontend Integration:** Developed a custom UI (`index.html`, `greeting.css`, `greeting.js`) and configured `Program.cs` to serve these static files using `UseDefaultFiles()` and `UseStaticFiles()`.
 4. **API Endpoints:** Wrote a `HomeController` that handles a `POST` request to save a user's name to a repository, and a `GET` request to return a personalized greeting directly to the browser popup.
+
+Day 7 | Minimal APIs
+📌 Progress Overview
+
+Day 7 Topic: Minimal APIs | Status: ✅ Done
+
+💡 Topics Covered
+
+Minimal APIs in ASP.NET Core.
+
+RESTful endpoints and HTTP methods.
+
+Request and response handling.
+
+🛠️ Tasks Completed
+
+Created a Contacts App backend using Minimal APIs.
+
+Implemented basic CRUD endpoints.
+
+Day 8 | Swagger & API Testing
+📌 Progress Overview
+
+Day 8 Topic: Swagger & API Testing | Status: ✅ Done
+
+💡 Topics Covered
+
+Swagger / OpenAPI documentation.
+
+API endpoint testing and response handling.
+
+Introduction to distributed architecture.
+
+🛠️ Tasks Completed
+
+Integrated Swagger into the Contacts App.
+
+Tested and documented API endpoints using Swagger UI.
+
+Day 9 | Entity Framework Core
+📌 Progress Overview
+
+Day 9 Topic: Entity Framework Core | Status: ✅ Done
+
+💡 Topics Covered
+
+ORM and Entity Framework Core.
+
+Entities, DbContext, and database operations.
+
+Dependency Injection in ASP.NET Core.
+
+🛠️ Tasks Completed
+
+Converted the Contacts App to use Entity Framework Core.
+
+Implemented database-based CRUD operations.
+
+Day 10 | Entity Framework & N-Tier Architecture
+📌 Progress Overview
+
+Day 10 Topic: Entity Framework & N-Tier Architecture | Status: ✅ Done
+
+💡 Topics Covered
+
+LINQ to Entities.
+
+Entity Framework Core with REST APIs.
+
+N-Tier / layered architecture.
+
+🛠️ Tasks Completed
+
+Created AddressBookWebApp using Entity Framework Core.
+
+Implemented the application using N-Tier Architecture.
+
+Used LINQ for database querying and CRUD operations.
+
