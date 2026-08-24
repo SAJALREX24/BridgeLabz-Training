@@ -1,0 +1,12 @@
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\bin\Debug\net10.0\FundooNotes.Models.deps.json
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\bin\Debug\net10.0\FundooNotes.Models.dll
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\bin\Debug\net10.0\FundooNotes.Models.pdb
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\obj\Debug\net10.0\FundooNotes.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\obj\Debug\net10.0\FundooNotes.Models.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\obj\Debug\net10.0\FundooNotes.Models.AssemblyInfo.cs
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\obj\Debug\net10.0\FundooNotes.Models.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\obj\Debug\net10.0\FundooNotes.Models.sourcelink.json
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\obj\Debug\net10.0\FundooNotes.Models.dll
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\obj\Debug\net10.0\refint\FundooNotes.Models.dll
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\obj\Debug\net10.0\FundooNotes.Models.pdb
+C:\Users\Dell\Desktop\BridgeLabz-Training\Day-13\FundooNotes\FundooNotes.Models\obj\Debug\net10.0\ref\FundooNotes.Models.dll
